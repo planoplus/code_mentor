@@ -1,0 +1,1 @@
+INSERT INTO developers (author_hkey, display_name) VALUES ('dev1','Alice');

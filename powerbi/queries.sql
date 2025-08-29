@@ -1,0 +1,1 @@
+SELECT s.commit_sha, s.sqc, s.subnotes, s.rationale, c.repo, c.committed_at, d.display_name FROM scores s JOIN commits c ON s.commit_sha = c.commit_sha JOIN developers d ON c.author_hkey = d.author_hkey;
